@@ -32,7 +32,7 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: |
-              my-docker-hub-namespace/my-docker-hub-repository
+              ua9dewpp/stash-rclone
               ghcr.io/${{ github.repository }}
               
       - name: Set up Docker Buildx
